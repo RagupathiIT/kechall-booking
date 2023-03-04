@@ -1,3 +1,3 @@
 const mongoose=require('mongoose')
-exports.connectDB=async()=>await mongoose.connect('mongodb://127.0.0.1:27017/new')
+exports.connectDB=async()=>await mongoose.connect('mongodb+srv://ragupathi17:ragupathi17@cluster0.xktqr.mongodb.net/new')
  
